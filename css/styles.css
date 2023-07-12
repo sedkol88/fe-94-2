@@ -79,6 +79,7 @@ body {
 }
 .hero-btn {
   color: #fff;
+  background-color: #fd9222;
   font-family: inherit;
   font-size: 14px;
   font-weight: 600;
@@ -96,7 +97,7 @@ body {
   letter-spacing: -0.03em;
 }
 
-/** ------------------ADVANTAGES----------------- */
+/* ------------------ADVANTAGES----------------- */
 
 .advantages {
   background-color: #1e1823;
@@ -117,4 +118,253 @@ body {
   line-height: 1.29;
   letter-spacing: -0.02em;
 }
-/*=========================*/
+
+/* ------------------TASTE----------------- */
+.taste {
+}
+.taste-title {
+  color: #111;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.taste-span {
+  color: #fd9222;
+}
+.taste-text {
+  color: #111;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+.taste-list {
+}
+.taste-item:nth-child(4n + 1) {
+  background-color: #fd9222;
+}
+.taste-item:nth-child(4n + 3) {
+  background-color: #1e1823;
+}
+.taste-item-text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.taste-item:nth-child(even) .taste-item-text {
+  color: #111;
+}
+.taste-item:nth-child(odd) .taste-item-text {
+  color: #fff;
+}
+
+/* ------------------RECIEPT----------------- */
+.reciept {
+}
+.reciept-title {
+  color: #111;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.reciept-title-span {
+  color: #fd9222;
+}
+.reciept-text {
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+.reciept-list {
+}
+.reciept-item {
+}
+.reciept-item-text {
+  color: #111;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+/* ----------------PRODUCTS--------------- */
+.products {
+}
+.products-title {
+  color: #111;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.products-title-span {
+  color: #fd9222;
+}
+.products-list {
+}
+.products-item {
+}
+.products-item-title {
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.products-item-text {
+  color: rgba(17, 17, 17, 0.7);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+}
+.products-item-span {
+  color: #111;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* ----------------SELLERS--------------- */
+.sellers {
+}
+.sellers-title {
+  color: #111111;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.sellers-title-span {
+  color: #fd9222;
+}
+.sellers-list {
+}
+.sellers-item {
+}
+.sellers-item-title {
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+/* ----------------SELLERS--------------- */
+.chocolate {
+}
+.chocolate-title {
+  color: #111111;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03;
+  text-transform: uppercase;
+}
+.chocolate-title-span {
+  color: #fd9222;
+}
+.chocolate-list {
+}
+.chocolate-item {
+}
+.chocolate-item-title {
+  color: #111;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+.chocolate-item-text {
+  color: rgba(17, 17, 17, 0.7);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+.chocolate-button {
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+}
+/* ----------------FOOTER--------------- */
+.footer {
+  background-color: #1e1823;
+}
+.footer-slogan {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+}
+.footer-slogan-span {
+  color: #fd9222;
+}
+
+.footer-text-social {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+}
+.footer-social-list {
+}
+.footer-social-item {
+}
+.footer-social-link {
+}
+
+.footer-text-contact {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+}
+.footer-address {
+}
+.footer-address-list {
+}
+.footer-address-item {
+}
+.footer-address-link {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.footer-nav {
+}
+.footer-nav-list {
+}
+.footer-nav-item {
+}
+.footer-nav-link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
