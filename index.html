@@ -10,10 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
+      <div class="container">
       <nav class="header-navigation">
         <a class="header-logo link" href=""
           ><span class="header-logo-italic">SIMPLY</span> CHOCOLATE
@@ -38,7 +40,7 @@
             href=""
             target="_blank"
             rel="noopener noreferrer"
-            >insta</a
+            ><img src="./images/instagram.svg" alt="instagram icon" width="24"></a
           >
         </li>
         <li class="header-soc-item">
@@ -47,7 +49,7 @@
             href=""
             target="_blank"
             rel="noopener noreferrer"
-            >fb</a
+            ><img src="./images/facebook.svg" alt="facebook icon" width="24"></a
           >
         </li>
         <li class="header-soc-item">
@@ -56,10 +58,11 @@
             href=""
             target="_blank"
             rel="noopener noreferrer"
-            >twit</a
+            ><img src="./images/twitter.svg" alt="twitter icon" width="24"></a
           >
         </li>
       </ul>
+      </div>
     </header>
 
     <main>
@@ -68,7 +71,7 @@
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
-        <button type="reset" class="hero-btn">Buy now</button>
+        <button type="button" class="hero-btn">Buy now</button>
         <a href="#made" class="hero-link-btn link">How it’s made</a>
         <a href="#footer" class="hero-down-btn link">scroll down</a>
       </section>
@@ -190,11 +193,9 @@
 
       <section id="made" class="reciept">
         <h2 class="reciept-title">hOW IT’S <span class="reciept-title-span">made?</span></h2>
-        <img
+        <img class="reciept-img"
           src="./images/made-img.jpeg"
           alt="liquid chocolate"
-          width="600"
-          height="400"
         />
         <b class="reciept-text">
           Try our chocolates today and discover the perfect balance of flavor
@@ -419,7 +420,8 @@
       <p class="footer-text-contact">Contact us</p>
       <address class="footer-address">
         <ul class="footer-address-list list">
-          <li class="footer-address-item"><a class="footer-address-link link" href="tel:+380684439426">+380 (68) 443-94-26</a></li>
+          <li class="footer-address-item">
+            <a class="footer-address-link link" href="tel:+380684439426">+380 (68) 443-94-26</a></li>
           <li class="footer-address-item">
             <a class="footer-address-link link" href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a>
           </li>
