@@ -32,6 +32,8 @@ body {
 
 .list {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 p,
@@ -42,6 +44,9 @@ h4,
 h5,
 h6 {
   margin: 0;
+}
+img {
+  display: block;
 }
 
 .visually-hidden {
@@ -58,20 +63,51 @@ h6 {
   overflow: hidden;
 }
 
+/*-----------COMMON--------------*/
+.container {
+  max-width: 1168px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid tomato;
+}
+
 /** ------------------HEADER----------------- */
 
+.header-box {
+  display: flex;
+  align-items: center;
+}
+.header-box-logo {
+  display: flex;
+  align-items: center;
+}
 .header-logo {
+  padding-top: 28px;
+  padding-bottom: 36px;
+
   color: var(--color-black);
   font-size: 18px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: -0.03em;
 }
-
 .header-logo-italic {
   font-style: italic;
 }
+.header-logo:first-child {
+  margin-right: 4px;
+}
 
+.header-menu-list {
+  display: flex;
+  align-items: center;
+}
+.header-menu-item {
+  padding-top: 28px;
+  padding-bottom: 36px;
+}
 .header-menu-link {
   color: var(--color-black);
   font-size: 14px;
@@ -82,38 +118,74 @@ h6 {
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: #fd9222;
+  color: var(--color-orange);
+}
+
+.header-soc-list {
+  display: flex;
+  align-items: center;
+}
+.header-soc-item {
+  padding-top: 28px;
+  padding-bottom: 36px;
 }
 
 /* .header-menu-link:is(:hover, :focus) {
   color: #fd9222;
 } */
 
-/** ------------------HERO----------------- */
+/* ------------------HERO----------------- */
 
 .hero {
-  background-color: var(--color-black-60);
+}
+.hero-box {
+  max-width: 100%;
+  border-radius: 30px;
+  background: var(--color-black-60);
+  padding: 381px 40px 40px;
 }
 .hero-title {
+  max-width: 484px;
+  margin-bottom: 32px;
+
   color: var(--color-white-2);
   font-size: 28px;
   font-weight: 500;
   line-height: 1.21;
   letter-spacing: -0.03em;
 }
+.hero-box-button {
+  display: flex;
+  align-items: center;
+}
 .hero-btn {
-  color: var(--color-white-2);
-  background-color: var(--color-orange);
+  display: block;
+  padding: 14px 40px;
+  margin-right: 14px;
+
   font-family: inherit;
   font-size: 14px;
   font-weight: 600;
+
+  color: var(--color-white-2);
+  background-color: var(--color-orange);
+  border-radius: 100px;
 }
 .hero-link-btn {
+  display: block;
+  padding: 14px 40px;
+
+  border-radius: 100px;
+  border: 1px solid #fff;
+
   color: var(--color-white-2);
   font-size: 14px;
   font-weight: 600;
 }
 .hero-down-btn {
+  display: block;
+  margin-left: auto;
+
   color: var(--color-white-2);
   font-size: 14px;
   font-weight: 500;
@@ -210,6 +282,7 @@ h6 {
   font-weight: 600;
   line-height: 1.33;
 }
+
 .reciept-list {
 }
 .reciept-item {
